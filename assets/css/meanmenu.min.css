@@ -1,6 +1,6 @@
 a.meanmenu-reveal{display:none}
 .mean-container .mean-bar {
-  background: #FF3B00;
+  background: #050a1e;
   float: left;
   min-height: 60px;
   padding: 4px 0 0;
@@ -9,7 +9,13 @@ a.meanmenu-reveal{display:none}
   z-index: 999;
 }
 .mean-container a.meanmenu-reveal{width:22px;height:22px;padding:18px;top:0;right:0;cursor:pointer;color:#fff;text-decoration:none;font-size:16px;text-indent:-9999em;line-height:22px;font-size:1px;display:block;font-family:Arial,Helvetica,sans-serif;font-weight:700;float: right;}
-.mean-container a.meanmenu-reveal span{display:block;background:#fff;height:3px;margin-top:3px}
+.mean-container a.meanmenu-reveal span{
+  display:block;
+  background:#fff;
+  height:3px;
+  margin-top:7px;
+  width: 100%;
+}
 .mean-container .mean-nav{float:left;width:100%;background:#0c1923}
 .mean-container .mean-nav ul{padding:0;margin:0;width:100%;list-style-type:none}
 .mean-container .mean-nav ul li {
@@ -34,6 +40,7 @@ a.meanmenu-reveal{display:none}
 }
 .mobile-menu-area {
   background: #262626;
+  
 }
 .mean-container .mean-nav ul li li a {
   border-top: 1px solid rgba(255, 255, 255, 0.25);
@@ -120,12 +127,11 @@ a.meanmenu-reveal{display:none}
   background: #fff;
 }
 .mean-container .mean-bar::before {
-    color: #fff;
-    content: "Consen";
-    font-size: 28px;
+    content: url("../images/logo.png");
     font-weight: 600;
-    left: 10px;
+    left: 16px;
     position: absolute;
-    top: 18px;
+   
+    top: 15px;
 }
 
