@@ -53,6 +53,31 @@
         }
     })
 
+        // Case Study Active
+        $('.case-study-banner').owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            dots: false,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                576: {
+                    items: 1
+                },
+                992: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                },
+                1920: {
+                    items: 1
+                }
+            }
+        })
     // brand Active
     $('.banner-list').owlCarousel({
         loop: true,
