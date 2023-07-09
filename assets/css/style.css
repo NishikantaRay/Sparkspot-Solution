@@ -7618,6 +7618,13 @@ ul.social-box li a:hover {
     .dnshow{
         display: none;
     }
+    .banner-img{
+        display: none;
+
+    }
+    .slider-area{
+        height: 450px;
+    }
 }
 
 
