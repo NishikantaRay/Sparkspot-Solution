@@ -440,26 +440,26 @@ $('.testimonial_list2').owlCarousel({
 
 
     // Calender Jquery
-    var curDate = (new Date()).getDate();
-    var curMonth = (new Date()).getMonth();
-    var curYear = (new Date()).getFullYear();
-    var startDay = (new Date(curYear, curMonth, 1)).getDay();
-    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    var noofdays = ["31", "29", "31", "30", "31", "30", "31", "31", "30", "31", "30", "31"];
-    var prevMonth = noofdays[curMonth - 1];
+    let curDate = (new Date()).getDate();
+    let curMonth = (new Date()).getMonth();
+    let curYear = (new Date()).getFullYear();
+    let startDay = (new Date(curYear, curMonth, 1)).getDay();
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    let noofdays = ["31", "29", "31", "30", "31", "30", "31", "31", "30", "31", "30", "31"];
+    let prevMonth = noofdays[curMonth - 1];
     if (curMonth == 11) {
         prevMonth = noofdays[0];
     } else if (curMonth == 0) {
         prevMonth = noofdays[11];
     }
-    var totalDays = noofdays[curMonth];
-    var counter = 0;
-    var precounter = prevMonth - (startDay - 1);
-    var rightbox = 6;
-    var flag = true;
+    let totalDays = noofdays[curMonth];
+    let counter = 0;
+    let precounter = prevMonth - (startDay - 1);
+    let rightbox = 6;
+    let flag = true;
 
     jQuery('.curr-month b').text(months[curMonth]);
-    for (var i = 0; i < 42; i++) {
+    for (let i = 0; i < 42; i++) {
         if (i >= startDay) {
             counter++;
             if (counter > totalDays) {

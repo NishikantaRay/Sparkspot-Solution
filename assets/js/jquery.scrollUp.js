@@ -15,7 +15,7 @@
     $.fn.scrollUp.init = function (options) {
 
         // Define vars
-        var o = $.fn.scrollUp.settings = $.extend({}, $.fn.scrollUp.defaults, options),
+        let o = $.fn.scrollUp.settings = $.extend({}, $.fn.scrollUp.defaults, options),
             triggerVisible = false,
             animIn, animOut, animSpeed, scrollDis, scrollEvent, scrollTarget, $self;
 
