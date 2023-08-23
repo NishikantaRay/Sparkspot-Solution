@@ -3521,12 +3521,14 @@ p.choose-text1 {
 
 /*team content*/
 .single_team_content {
+  height: 100%;
   width: 90%;
   position: absolute;
   left: 0;
   right: 0;
   margin: auto;
   bottom: 0;
+  top: -20px;
 }
 
 /*team title*/
