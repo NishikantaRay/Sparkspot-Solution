@@ -2000,6 +2000,7 @@ p.about-text {
 p.about-text2 {
   opacity: inherit;
   padding: 0;
+  text-align: justify;
 }
 
 /*dreamit ceo box*/
