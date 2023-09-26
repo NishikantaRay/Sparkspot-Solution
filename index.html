@@ -365,7 +365,7 @@
 						<h3> Sparkspot Finished this Achivement in 6 Years </h3>
 					</div>
 				</div>
-				<div class="col-md-3 col-6">
+				<div class="col-md-2 col-6">
 					<div class="counter-single-box">
 						<div class="counter-title">
 							<h4 class="counter">20</h4>
@@ -374,7 +374,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 col-6">
+				<div class="col-md-2 col-6">
 					<div class="counter-single-box">
 						<div class="counter-title">
 							<h4 class="counter">30</h4>
@@ -383,7 +383,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 col-6">
+				<div class="col-md-2 col-6">
 					<div class="counter-single-box">
 						<div class="counter-title">
 							<h4 class="counter">15</h4>
@@ -392,12 +392,47 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 col-6">
+				<div class="col-md-2 col-6">
 					<div class="counter-single-box">
 						<div class="counter-title">
 							<h4 class="counter">11</h4>
 							<span>+</span>
 							<p>Projects Ongoing</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-6">
+					<div class="counter-single-box">
+						<div class="counter-title">
+							<h4 class="counter">5070</h4>
+							<span>+</span>
+							<p> No. Of minds touched</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-6">
+					<div class="counter-single-box">
+						<div class="counter-title">
+							<h4 class="counter" id="numberDisplay"><script>
+								const startDate = new Date('1994-09-28');
+								
+								const dailyIncrement = 5;
+								
+								const currentDate = new Date();
+								
+								const timeDifference = currentDate.getTime() - startDate.getTime();
+								
+								const totalDays = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+								const remainingHours = totalDays * dailyIncrement;
+								
+								const totalHours = remainingHours ;
+								var numberDisplayElement = document.getElementById('numberDisplay');
+
+           
+            numberDisplayElement.textContent = totalHours;
+								</script></h4>
+							<span>+</span>
+							<p>No. Of man-hours Training imparted</p>
 						</div>
 					</div>
 				</div>
